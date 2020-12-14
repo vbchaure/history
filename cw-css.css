@@ -1,0 +1,48 @@
+body{background-color: #f1f1f1;}
+pre strong{color: #ff00009e;font-size: 15px;}
+mark{background-color: #dcdcdc6b;color: red;}
+.cw-heading{color: green;text-align: center;}
+.note-box{height: auto;width: 100%; background-color: #cccccc78;border: 1px solid #ccc;}
+.example{background-color: #f3f3f3; padding-top: 20px;padding-right: 15px;}
+.quote{margin:20px 0 20px 20px;padding: 10px 0px 0px 15px;border-left: 5px solid #2196f3;background-color: #fff;}
+.text-left{margin:20px 10px 20px 10px; background-color: white;font-size: 1.2rem;}
+ul.none{list-style: none;margin:0;padding:0;}
+/*@media screen and (max-width: 800px){.quote{height: 300px;width: 90%;}}*/
+pre{font-size: 14px !important;color:#000;overflow: auto !important;}
+#collapsibleNavbar ul li a{color: #f2f2f2;}
+#collapsibleNavbar ul li a:hover{color: cyan;}
+@media screen and (max-width: 650px){.navbar img{display: none;}}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: auto;}
+/* Set gray background color and 100% height */
+.row.content {height: auto}
+.sidenav{padding:0px;margin: 0px;}
+/* Set gray background color and 100% height */
+.sidenav .left-bar div {margin-top: 0!important;border-left: none!important;border-bottom: 1px solid #f1f1f1;}
+.sidenav .left-bar div{ list-style: none; font-size: 15px;line-height: 3.5;background-color: #fff;}
+.sidenav .left-bar div:hover{background-color: #2222222e;}
+.sidenav .left-bar a{text-decoration: none;color: black;}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 800px){.sidenav{display:none;height: auto;margin: 0px;}.row.content{height:auto;justify-content: center;}}
+.p-2 a{text-decoration: none;color: #f2f2f2;}
+.p-2 a:hover{color: cyan;}
+.radio-container {display: block;position: relative;padding-left: 35px;margin-bottom: 12px;font-size: 18px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+/* Hide the browser's default radio button */
+.radio-container input {position: absolute;opacity: 0;}
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .checkmark {background-color: #ccc;}
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .checkmark {background-color: #2196F3;}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {content: "";position: absolute;display: none;}
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .checkmark:after {display: block;}
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {top: 9px;left: 9px;width: 8px;height: 8px;border-radius: 50%;background: white;}
+#myBtn {display: none;position: fixed;height: 35px;width: 35px;bottom: 20px;right: 30px;z-index: 99;font-size: 20px;border: none;outline: none;background-color: #007bff;color: white;cursor: pointer;padding: 2px 6px 2px 6px;border-radius: 4px;}
+#myBtn:hover {background-color: #555;}
+.quiz-container{padding: 20px;background-color: #fff;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+@media screen and (max-width: 800px){#footer{justify-content: center;}.d-flex{flex-direction: column;}}
+#prev-btn{float: left; color: white; margin-bottom: 20px;}
+#next-btn{float: right; color: white; margin-bottom: 20px;}
+#footer{margin-bottom:0; background-color: #3b3b3b; color: #f2f2f2; text-decoration: none;}

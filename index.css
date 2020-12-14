@@ -1,0 +1,324 @@
+ body{
+      background-color: #fff;
+      overflow-x: hidden;
+    }
+  #collapsibleNavbar ul li a{
+    color: #f2f2f2;
+  }
+  #collapsibleNavbar ul li a:hover{
+    color: cyan;
+  }
+  @media screen and (max-width: 650px){.navbar img{display: none;}}
+  #first div{
+    padding-top: 150px;
+  }
+  @media screen and (max-width: 1050px){
+    #first{
+      flex-direction: column;    
+    }
+    #first div{
+      padding-top: 30px;
+      padding-left: auto;
+    }
+    #first img{
+      padding-left: auto;
+    }
+  }
+.services{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.service{
+  width: 100%;
+}
+.service ul{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.service ul li{
+  height: 70px;
+  width: 320px;
+  margin: 40px 20px 20px;
+  background-color: #eaece647;
+  display: inline-flex;
+  font-weight: 300;
+  font-size: 18px;
+  flex-direction: column;
+  list-style: none;
+  cursor: pointer;
+}
+.service ul li a{
+  text-decoration: none;
+  line-height: 70px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-color: #004785;
+  color: #FFFFFF;
+}
+.service div{
+  line-height: 70px;
+  display: none;
+}
+.service ul li a:hover{
+  transform: scale(1.05);
+  color: #FFFFFF;
+}
+@media screen and (max-width: 1448px){
+  .service ul{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  .service ul li{
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1100px){
+  .service ul{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  .service ul li{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 700px){
+  .service ul{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  .service ul li{
+    width: 86%;
+  }
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #2b61f5;/*#6f95ff,#f3f3f3,#2b61f5*/
+  color: #fff;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;/*#86affa,#ddd*/
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #cacaca;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #f1f1f1;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: #fff;}/*cornflowerblue,#fff,#da2020*/
+/* Float four columns side by side */
+.column {
+  float: left;
+  margin-left: 15px;
+  width: 23.7%;
+  padding: 0 5px;
+}
+
+.row {margin: 0 -10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 1170px) {
+  .column {
+    width: 48%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+/* Responsive columns */
+@media screen and (max-width: 730px) {
+  .column {
+    width: 98%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+
+.column .fa {font-size:50px;}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.modal button[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.modal button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #d04c59;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.form-container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 30px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
